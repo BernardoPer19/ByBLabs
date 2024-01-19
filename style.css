@@ -682,9 +682,9 @@ textarea {
     /* ... */
   }
 
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 1000px) {
     .servicios{
-        min-height: 180vh;
+        min-height: 140vh;
     }
     .conteinerServicios {
         flex-direction: column; /* Cambia la dirección a columna para una sola columna */
