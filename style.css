@@ -1,0 +1,721 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,900;1,400;1,600;1,800&display=swap');
+/*
+font-family: 'Poppins', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+/*
+font-family: 'Roboto', sans-serif;
+*/
+
+
+.hamburgerMenu{
+    position: fixed;
+    font-size: 3rem;
+    font-weight: 800;
+    z-index: 498746465145646;
+    margin: 20px;
+    cursor: pointer;
+    transition: 1s;
+    display: none;
+    transition: 2s;
+    color: rgb(82, 82, 255);
+    text-shadow: 3px 3px 10px #ffffff;
+  }
+
+
+
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+
+  .anitamtionMenu{
+    transform: rotate(90deg);
+    transition: 1s;
+  }
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.abajo{
+    background-color: #0000005b;
+    transition: 1s;
+    backdrop-filter: blur(5px);
+}
+
+header{
+    position: relative;
+    min-height: 70vh;
+    width: 100%;
+}
+
+.navbar{
+    padding: 35px;
+    position: fixed ;
+    z-index: 2;
+    width: 100%;
+    transition: .5s;
+}
+ul{
+    display: flex;
+    justify-content: end;
+
+}
+
+ul li a{
+    margin: 30px;
+    margin-right: 55px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    background-attachment: fixed;
+}
+
+.capa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.292),rgba(0, 0, 0, 0.298));
+    /* mix-blend-mode:darken; */
+    opacity: 1;
+}
+
+.header-txt{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+    z-index: 23;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: white;
+}
+.negocio{
+    color: #0004ff;
+    text-shadow: 5px 5px 10px #fff;
+}
+.titulo{
+    font-size: 4.5rem;
+    letter-spacing: 4px;
+}
+.subtitulo{
+    font-size: 2rem;
+   margin-top: 50px;
+   margin-bottom: 80px;
+   font-weight: 500;
+   color: #ffffff;
+}
+
+.btn-1{
+    padding: 15px 25px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: #3c50ff;
+    box-shadow: #ffffffa5 3px 3px 5px 0px;
+}
+
+/*
+ACERCA DE NOSOTROS
+*/
+.nosotros {
+    width: 100%;
+
+    background-color: #a0a9f489;
+    z-index: -22;
+    text-align: center; /* Centrar el contenido */
+}
+
+.info {
+    width: 100%;
+    max-width: 800px; /* Establecer un ancho máximo */
+    margin: 0 auto; /* Centrar horizontalmente */
+    padding-top: 60px;
+    padding-bottom: 60px; /* Añadir espacio inferior */
+}
+
+.info h1 {
+    font-size: 2rem; /* Reducir tamaño del título */
+    color: #3342d0;
+  
+}
+
+.info p {
+    font-size: 1.5rem; /* Reducir tamaño del párrafo */
+    font-family: 'Roboto', sans-serif;
+}
+
+.divProg {
+    width: 100%;
+    max-width: 600px; /* Establecer un ancho máximo */
+    height: 300px; /* Ajustar altura para evitar desbordamientos */
+    margin: 0 auto; /* Centrar horizontalmente */
+    background: url(https://fotos.perfil.com/2020/09/08/trim/1280/720/dia-del-programador-festejo-con-escasez-de-profesionales-1013463.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px; /* Espaciado superior */
+    border-radius: 10px; /* Añadir bordes redondeados */
+}
+/*
+SEVICIOS
+*/
+ .servicios {
+    padding: 20px;
+    height: 80vh;
+    text-align: center;
+    margin-top: 290px;
+    background-color: #9ba3eb71;
+}
+
+.conteinerServicios{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre los elementos */
+    margin-top: 50px; /* Reducción del margen superior */
+}
+
+.losServ{
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem; /* Reducción del tamaño del título */
+    color: #3342d0;
+}
+.itemFlex{
+    width: calc(33% - 40px); /* Ajuste del ancho del elemento */
+    max-width: 350px; /* Máximo ancho del elemento */
+    background-color: #dde0ff;
+    border-radius: 10px;
+    margin-bottom: 20px; /* Espacio inferior entre elementos */
+}
+
+
+.itemFlex h2{
+    font-family: 'Poppins', sans-serif;
+    color: #3342d0;
+}
+
+.itemFlex p{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px; /* Reducción del margen superior del párrafo */
+    padding: 10px;
+}
+
+.imgFlex{
+    width: 100%;
+    max-height: 250px; /* Máxima altura de la imagen */
+    object-fit: cover; /* Ajuste del tamaño y recorte de la imagen */
+}
+
+/*
+frase
+*/
+.frase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.292),rgba(0, 0, 0, 0.298)),url(https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZ3JhbWFjaW9ufGVufDB8fDB8fHww);
+    margin-top:1%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    background-attachment: fixed;
+    color: #fff;
+    object-fit: cover;
+    height: 50vh;
+}
+
+/*
+REDES
+*/
+.numeritos {
+    height: auto; /* Cambio de altura fija a automática */
+    padding: 20px 0; /* Añadir relleno para mejorar el espacio */
+    background-color: rgba(127, 127, 127, 0.063);
+    text-align: center; /* Centrar el contenido */
+}
+
+.nuestrasredes {
+    padding-top: 20px; /* Reducción del espacio superior */
+    font-size: 2rem; /* Reducción del tamaño del título */
+}
+
+.redes {
+    display: flex;
+    flex-wrap: wrap; /* Permitir que los íconos se ajusten */
+    justify-content: center;
+    gap: 20px; /* Espacio entre los íconos */
+    margin-top: 20px; /* Reducción del margen superior */
+}
+
+.bi-instagram, .bi-facebook, .bi-twitter, .bi-youtube {
+    font-size: 4rem; /* Reducción del tamaño de los íconos */
+    margin: 10px; /* Espaciado entre los íconos */
+}
+
+  .bi-instagram{
+    color: #d6249f;
+    text-shadow: 0px 3px 10px rgba(0,0,0,.25);
+    transition: 1s ease;
+  }
+
+  .bi-facebook{
+    color: #2a24d6;
+    text-shadow: 0px 3px 10px rgba(0,0,0,.25);
+    transition: 1s ease;
+  }
+
+  
+  .bi-twitter{
+    color: rgb(29 161 242);
+    text-shadow: 0px 3px 10px rgba(0,0,0,.25);
+    transition: 1s ease;
+  }
+
+  
+  .bi-youtube{
+    color: rgb(255, 0, 0);
+    text-shadow: 0px 3px 10px rgba(0,0,0,.25);
+    transition: 1s ease;
+  }
+
+/*
+PROYECTOS
+*/
+.galeria {
+    width: 100%;
+    padding: 50px 0; /* Añadir espacio superior e inferior */
+    background-color: rgba(248, 248, 248, 0.508);
+    text-align: center;
+}
+
+.galeria h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #3342d0;
+    font-size: 2rem; /* Reducir el tamaño del título */
+    letter-spacing: 2px; /* Reducir el espaciado entre letras */
+    padding: 20px; /* Reducir el espacio alrededor del título */
+}
+
+.conteinerGaleria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Columnas adaptables */
+    gap: 30px; /* Espaciado entre elementos */
+    justify-content: center; /* Centrar elementos */
+    padding: 0 20px; /* Añadir relleno lateral */
+    margin-top: 50px; /* Espacio superior */
+    font-size: 1.5rem; /* Reducir tamaño del texto */
+    font-family: 'Poppins', sans-serif;
+}
+
+.gridItem {
+    border-radius: 20px;
+    height: 300px; /* Altura fija para los elementos */
+    position: relative; /* Añadir posición relativa */
+    overflow: hidden; /* Evitar que el contenido se desborde */
+}
+
+.gridItem a {
+    display: block;
+    margin-top: 20px;
+    font-size: 1rem;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+    background-color: #3342d0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none; /* Quitar subrayado de los enlaces */
+}
+
+/* Restringir el tamaño de la imagen para evitar desbordamientos */
+.gridItem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.g1{
+    background: url(proyectosIMG/ICE.png);
+    border: 1px solid;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+ .g2{
+    background-image: url(proyectosIMG/gym.png);
+    border: 1px solid;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+.g3{
+    background-image: url(proyectosIMG/gafas.png);
+    border: 1px solid;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+.g4{
+    background-image: url(proyectosIMG/orientando.png);
+    border: 1px solid;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.g5{
+    background-image: url(proyectosIMG/bigline.png);
+    border: 1px solid;
+    background-size: cover;
+    background-position: center;
+    
+} 
+
+.g6{
+    background-image: url(proyectosIMG/comidas.png);
+    border: 1px solid;
+    background-size: cover;
+    
+    background-position: center;
+} 
+
+ .content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.699);
+    color: rgb(0, 0, 0);
+    opacity: 0;
+    transition: .2s;
+}
+
+.gridItem:hover .content {
+    opacity: 1;
+    transition: .2s;
+} 
+/*FOOTER*/
+footer {
+    font-family: 'Poppins', sans-serif;
+    background-color: #dde0ff63;
+    min-height: 40vh;
+    padding: 50px 20px; /* Añadir relleno superior e inferior y reducir los laterales */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 100%; /* Ajustar el ancho del formulario al 100% */
+    max-width: 500px; /* Limitar el ancho máximo del formulario */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 5px; /* Espaciado inferior entre etiquetas */
+}
+
+input,
+textarea {
+    width: 100%; /* Utilizar ancho completo */
+    max-width: 100%; /* Evitar que el formulario se desborde */
+    margin: 10px 0; /* Espaciado vertical entre campos */
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 5px;
+    box-sizing: border-box; /* Ajustar el tamaño total incluyendo el borde y el relleno */
+}
+
+textarea {
+    min-height: 100px; /* Establecer una altura mínima para el área de texto */
+    max-height: 200px;
+    resize: vertical; /* Permitir redimensionar verticalmente */
+}
+
+.grupo {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0; /* Espaciado vertical entre grupos */
+    width: 50%;
+}
+
+.btn {
+    margin-top: 20px;
+    background-color: #dde0ff;
+    padding: 10px 20px; /* Aumentar el relleno del botón */
+    border-radius: 5px;
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+}
+
+.redesIconos {
+    display: flex;
+    justify-content: flex-end; /* Alinear los iconos al extremo derecho */
+    align-items: flex-end; /* Alinear los iconos en la parte inferior */
+}
+
+.contacto {
+    padding-top: 20px; /* Reducir el espacio superior del título */
+    font-size: 2rem; /* Ajustar el tamaño del título */
+    color: #3342d0;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .navbar {
+        display: none;
+        padding: 35px;
+        position: fixed ;
+        z-index: 2;
+        width: 100%;
+        transition: .5s;
+        height: 70%;
+        display: none;
+        backdrop-filter: blur(5px);
+        background-color: #ffffffaa;
+        z-index: 5;
+    }
+    .hamburgerMenu {
+        display: block; /* Muestra el icono del menú */
+    }
+}
+
+
+/* Ajustes para los elementos del menú en pantallas pequeñas */
+@media only screen and (max-width: 900px) {
+
+    ul {
+        justify-content: center; /* Centra los elementos del menú */
+        flex-direction: column;
+        text-align: center;
+        line-height: 90px;
+        z-index: 6565465000;
+
+    }
+    ul li a {
+        margin: 20px; /* Reducir el espacio entre elementos */
+        color: #000000;
+    
+    }
+    .header-txt {
+        z-index: 2;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header-txt {
+        top: 40%; /* Ajusta la posición vertical del texto */
+    }
+    .titulo {
+        font-size: 3rem; /* Reduce el tamaño del título */
+    }
+    .subtitulo {
+        font-size: 1.5rem; /* Reduce el tamaño del subtítulo */
+        margin-top: 20px; /* Ajusta el margen superior */
+        margin-bottom: 40px; /* Ajusta el margen inferior */
+    }
+    .btn-1 {
+        padding: 10px 20px; /* Ajusta el tamaño del botón */
+    }
+}
+
+@media (max-width:1017px) {
+    body{
+        overflow-x: hidden;
+    }
+}
+
+@media only screen and (max-width: 1490px) {
+    /* Ajustes para pantallas medianas */
+    .titulo {
+      font-size: 3.5rem; /* Reducir el tamaño del título */
+    }
+  
+    .subtitulo {
+      font-size: 1.8rem; /* Reducir el tamaño del subtítulo */
+      margin-top: 30px; /* Ajustar el margen superior */
+      margin-bottom: 60px; /* Ajustar el margen inferior */
+    }
+  
+    .header-txt {
+      top: 45%; /* Ajustar la posición vertical del texto */
+    }
+  
+    .btn-1 {
+      padding: 12px 24px; /* Ajustar el tamaño del botón */
+    }
+  
+    /* Otros ajustes necesarios para corregir la disposición en pantallas medianas */
+    /* ... */
+  }
+
+
+@media only screen and (max-width: 1380px) {
+ 
+    /* Ajustes para pantallas medianas */
+    .titulo {
+      font-size: 3.5rem; /* Reducir el tamaño del título */
+    }
+  
+    .subtitulo {
+      font-size: 1.8rem; /* Reducir el tamaño del subtítulo */
+      margin-top: 30px; /* Ajustar el margen superior */
+      margin-bottom: 60px; /* Ajustar el margen inferior */
+    }
+  
+    .header-txt {
+      top: 45%; /* Ajustar la posición vertical del texto */
+    }
+  
+    .btn-1 {
+      padding: 12px 24px; /* Ajustar el tamaño del botón */
+    }
+  
+    /* Otros ajustes necesarios para corregir la disposición en pantallas medianas */
+    /* ... */
+  }
+
+
+  @media only screen and (max-width: 942px) {
+    /* Ajustes para pantallas medianas */
+    .titulo {
+      font-size: 3rem; /* Reducir el tamaño del título */
+    }
+  
+    .subtitulo {
+      font-size: 1.8rem; /* Reducir el tamaño del subtítulo */
+      margin-top: 30px; /* Ajustar el margen superior */
+      margin-bottom: 60px; /* Ajustar el margen inferior */
+    }
+  
+    .header-txt {
+      top: 45%; /* Ajustar la posición vertical del texto */
+    }
+  
+    .btn-1 {
+      padding: 12px 24px; /* Ajustar el tamaño del botón */
+    }
+  
+    /* Otros ajustes necesarios para corregir la disposición en pantallas medianas */
+    /* ... */
+  }
+
+
+  @media only screen and (max-width: 572px) {
+    /* Ajustes para pantallas medianas */
+    .titulo {
+      font-size: 2.5rem; /* Reducir el tamaño del título */
+    }
+  
+    .subtitulo {
+      font-size: 1.8rem; /* Reducir el tamaño del subtítulo */
+      margin-top: 15px; /* Ajustar el margen superior */
+      margin-bottom: 40px; /* Ajustar el margen inferior */
+    }
+  
+    .header-txt {
+      top: 45%; /* Ajustar la posición vertical del texto */
+    }
+  
+    .btn-1 {
+      padding: 12px 24px; /* Ajustar el tamaño del botón */
+    }
+  
+    /* Otros ajustes necesarios para corregir la disposición en pantallas medianas */
+    /* ... */
+  }
+
+  @media only screen and (max-width: 439px) {
+    /* Ajustes para pantallas medianas */
+    .titulo {
+      font-size: 2rem; /* Reducir el tamaño del título */
+    }
+  
+    .subtitulo {
+      font-size: 1.3rem; /* Reducir el tamaño del subtítulo */
+      margin-top: 20px; /* Ajustar el margen superior */
+      margin-bottom: 40px; /* Ajustar el margen inferior */
+    }
+  
+    .header-txt {
+      top: 45%; /* Ajustar la posición vertical del texto */
+    }
+  
+    .btn-1 {
+      padding: 12px 24px; /* Ajustar el tamaño del botón */
+    }
+  
+    /* Otros ajustes necesarios para corregir la disposición en pantallas medianas */
+    /* ... */
+  }
+
+  @media only screen and (max-width: 900px) {
+    .servicios{
+        min-height: 180vh;
+    }
+    .conteinerServicios {
+        flex-direction: column; /* Cambia la dirección a columna para una sola columna */
+        align-items: center; /* Centra los elementos */
+    }
+
+    .itemFlex {
+        width: 60%; /* Ancho mayor para ocupar más espacio en pantallas medianas */
+        max-width: none; /* Remueve el ancho máximo */
+    }
+
+    .info p {
+        font-size: 1.2rem; /* Reducir tamaño del párrafo */
+    }
+
+    
+.divProg {
+    width: 50%;
+   max-width: 600px; /* Establecer un ancho máximo */
+    height: 300px; /* Ajustar altura para evitar desbordamientos */
+    margin: 0 auto; /* Centrar horizontalmente */
+    background: url(https://fotos.perfil.com/2020/09/08/trim/1280/720/dia-del-programador-festejo-con-escasez-de-profesionales-1013463.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px; /* Espaciado superior */
+    border-radius: 10px; /* Añadir bordes redondeados */
+}
+
+.frase{
+   
+    font-size: 1.2rem;
+}
+
+}
